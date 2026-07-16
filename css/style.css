@@ -295,7 +295,7 @@ p:last-child { margin-bottom: 0; }
 
 .hero-visual {
   position: relative;
-  min-height: 780px;
+  min-height: 932px;
 }
 .hero-photo {
   position: absolute;
@@ -307,8 +307,8 @@ p:last-child { margin-bottom: 0; }
 .hero-photo img { width: 100%; display: block; }
 .hero-photo-1 { top: 0; left: 0; width: 70%; z-index: 3; }
 .hero-photo-2 img, .hero-photo-3 img { height: 100%; object-fit: cover; }
-.hero-photo-2 { top: 62%; left: 0; width: 210px; height: 270px; z-index: 2; }
-.hero-photo-3 { top: 53%; left: 150px; width: 300px; height: 200px; z-index: 1; }
+.hero-photo-2 { top: 522px; left: 0; width: 210px; height: 270px; z-index: 1; }
+.hero-photo-3 { top: 452px; left: 150px; width: 300px; height: 200px; z-index: 2; }
 
 /* ---------- Sections ---------- */
 section { padding: 88px 0; }
