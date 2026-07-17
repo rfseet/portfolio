@@ -692,7 +692,10 @@ section.alt { background: var(--cream-dim); }
   .skills-groups { grid-template-columns: 1fr; gap: 28px; }
   .companies-grid { grid-template-columns: 1fr; }
   .hero-grid { grid-template-columns: 1fr; }
-  .hero-visual { min-height: 420px; margin-top: 24px; }
+  .hero-visual { min-height: 0; margin-top: 24px; }
+  .hero-photo { position: static; width: 100%; height: auto; margin-bottom: 20px; }
+  .hero-photo:last-child { margin-bottom: 0; }
+  .hero-photo-2 img, .hero-photo-3 img { height: auto; object-fit: initial; }
   .recognition-grid { grid-template-columns: 1fr; }
   .recognition-stat { border-left: none; padding-left: 0; border-top: 2px solid var(--ink); padding-top: 24px; text-align: left; }
   .photo-band { grid-template-columns: 1fr; }
